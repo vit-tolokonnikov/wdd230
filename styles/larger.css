@@ -1,0 +1,12 @@
+@media only screen and (min-width: 600px) {
+    nav {
+        flex-direction: row;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card:first-child {
+        grid-row: 1/3;
+    }
+}
