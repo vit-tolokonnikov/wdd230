@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+.wirefreme-container {
+    display: flex;
+    justify-content: space-between;
+}
+.wirefreme-desctop-img {
+    width: 65%;
+}
+.wirefreme-mobile-img {
+    width: 30%;
+}
