@@ -43,6 +43,13 @@ main {
     grid-gap: 30px;
 }
 
+.make-dark {
+    background-color: black;
+}
+.make-dark .card {
+    background-color: black;
+    color: white;
+}
 
 .card {
     background: white;
