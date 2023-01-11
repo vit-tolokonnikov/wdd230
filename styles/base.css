@@ -26,7 +26,11 @@ header {
     color: white;
     background: #174e70;
 }
-
+.header-img {
+    max-width: 200px;
+    margin: 20px;
+    border-radius: 30px;
+}
 main {
     max-width: 760px;
     margin: 1rem auto;
