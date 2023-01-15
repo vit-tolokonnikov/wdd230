@@ -1,0 +1,39 @@
+@media only screen and (min-width: 720px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .developer-info {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav a {
+        display: block;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+
+    .btn-action {
+        margin: 0;
+        left: 100px;
+        top: 50%;
+    }
+    
+    .wrapper-section {
+        grid-template-columns: 1fr 400px;
+    }
+    
+    .spotlights {
+        grid-column: 1/3;
+    }
+}
