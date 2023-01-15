@@ -2,8 +2,8 @@
     --text-color: #171930;
     --bg-color: #4F86C6;
     --bg-color-2: #4FB0C6;
-    --bg-color-3: 
 }
+
 body {
     font-size: 18px;
 }
@@ -37,9 +37,6 @@ nav a:first-child {
 nav.active a {
     display: block;
     font-size: 24px;
-}
-nav.active .hamburger-menu {
-    content: '❌';
 }
 
 nav a {
