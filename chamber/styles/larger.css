@@ -36,4 +36,19 @@
     .spotlights {
         grid-column: 1/3;
     }
+
+    .main-container-discover {
+        flex-direction: row;
+    }
+    .main-container-discover > aside {
+        width: 30%;
+        margin-right: 30px;
+    }
+
+    .photo-discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        width: 65%;
+    }
 }
