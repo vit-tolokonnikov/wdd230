@@ -16,12 +16,19 @@ hamMenu.addEventListener('click', () => {
     }
 }); 
 
-document.querySelector('.js-put-user-time').value = date;
+const userTimeForm = document.querySelector('.js-put-user-time');
+if (!!userTimeForm) {
+    userTimeForm.value = date;
+}
 
 const visitsDisplay = document.querySelector(".visits");
 
 if (!!visitsDisplay) {
     let numVisits = Number(window.localStorage.getItem("visits"));
+
+    if (!numVisits) {
+        numVisits = 0;
+    }
 
     if (numVisits !== 0) {
         visitsDisplay.textContent = numVisits;

@@ -37,10 +37,10 @@
         grid-column: 1/3;
     }
 
-    .main-container-discover {
+    .main-container-discover, .main-container-join {
         flex-direction: row;
     }
-    .main-container-discover > aside {
+    .main-container-discover > aside, .main-container-join > aside {
         width: 30%;
         margin-right: 30px;
     }
@@ -49,6 +49,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 50px;
+        width: 65%;
+    }
+    .form-join {
         width: 65%;
     }
 }

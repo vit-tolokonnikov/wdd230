@@ -38,29 +38,42 @@
     </header>
     <main>
         <div class="container">
-            <form action="./thankyou.html" method="get" class="feedback-form">
-                <label>First name*: <input type="text" name="fname" required></label>
-                <label>Last name*: <input type="text" name="lname" required></label>
-                <label>Business Position Title: <input type="text" name="title" minlength="7" pattern="[a-zA-Z0-9 -]+" required></label>
-                <label>Your email*: <input type="email" name="email" required placeholder="someone@gmail.com"></label>
-                <label>Your phone number*: <input type="tel" name="phone" required></label>
-                <label>Business name/title*: <input type="text" name="business-title" required></label>
-                <label for="member">Membership Level:
-                <select name="member" id="member">
-                    <option value="">Select a Member Level</option>
-                    <option value="gold">Gold</option>
-                    <option value="silver">Silver</option>
-                    <option value="bronze">Bronze</option>
-                    <option value="npmembership">Non-Profit Membership</option>
-                </select>
-                </label>
-                <label>
-                    Business description
-                    <textarea name="description" cols="30" rows="10"></textarea>
-                </label>
-                <input type="hidden" class="js-put-user-time">
-                <label><input type="submit" value="Submit"></label>
-            </form>    
+            <h1>Join</h1>
+            <div class="main-container-join">
+                <aside>
+                    <div>
+                        <h2>Membership Level</h2>
+                        <p>Gold - 100% benefits</p>
+                        <p>Silver - 75% benefits</p>
+                        <p>Bronze - 25% benefits</p>
+                        <p>Visit Counts: <span class="visits"></span></p>
+                    </div>
+                </aside>
+                <div class="form-join">
+                    <form action="./thankyou.html" method="get" class="feedback-form">
+                        <label>First name*: <input type="text" name="fname" required></label>
+                        <label>Last name*: <input type="text" name="lname" required></label>
+                        <label>Business Position Title: <input type="text" name="title" minlength="7" pattern="[a-zA-Z0-9 -]+" required></label>
+                        <label>Your email*: <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                        <label>Your phone number*: <input type="tel" name="phone" required></label>
+                        <label>Business name/title*: <input type="text" name="business-title" required></label>
+                        <label for="member">Membership Level:
+                        <select name="member" id="member">
+                            <option value="">Select a Member Level</option>
+                            <option value="gold">Gold</option>
+                            <option value="silver">Silver</option>
+                            <option value="bronze">Bronze</option>
+                            <option value="npmembership">Non-Profit Membership</option>
+                        </select>
+                        </label>
+                        <label>
+                            Business description
+                            <textarea name="description" cols="30" rows="10"></textarea>
+                        </label>
+                        <input type="hidden" class="js-put-user-time">
+                        <label><input type="submit" value="Submit"></label>
+                    </form>   
+                </div>
         </div>
     </main>
     <footer>

@@ -24,15 +24,15 @@ body {
     height: 100px;
 }
 
-.main-container-discover {
+.main-container-discover, .main-container-join {
     display: flex;
     flex-direction: column;
     margin: 20px 10px;
 }
-.main-container-discover > aside {
+.main-container-discover > aside, .main-container-join > aside {
     width: 100%;
 }
-.main-container-discover > aside > div {
+.main-container-discover > aside > div, .main-container-join > aside > div {
     background-color: var(--bg-color-2);
     padding: 20px;
     margin-bottom: 20px;
