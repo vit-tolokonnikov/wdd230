@@ -16,15 +16,20 @@ hamMenu.addEventListener('click', () => {
     }
 }); 
 
+document.querySelector('.js-put-user-time').value = date;
+
 const visitsDisplay = document.querySelector(".visits");
-let numVisits = Number(window.localStorage.getItem("visits"));
 
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
+if (!!visitsDisplay) {
+    let numVisits = Number(window.localStorage.getItem("visits"));
+
+    if (numVisits !== 0) {
+        visitsDisplay.textContent = numVisits;
+    } else {
+        visitsDisplay.textContent = `This is your first visit!`;
+    }
+    
+    numVisits++;
+
+    localStorage.setItem("visits", numVisits);
 }
-
-numVisits++;
-
-localStorage.setItem("visits", numVisits);

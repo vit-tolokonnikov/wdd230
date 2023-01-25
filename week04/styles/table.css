@@ -1,0 +1,35 @@
+:root {
+    --zebra: rgb(216, 216, 216);
+}
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+table {
+    width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table,
+table td,
+table th {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+caption {
+    caption-side: bottom;
+}
+
+thead > tr > td:first-child {
+    background-color: black;
+    color: #fff;
+}
+thead > tr > td,
+tbody td:not(:first-child) {
+    text-align: center;
+}
