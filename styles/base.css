@@ -116,6 +116,65 @@ li {
     display: flex;
     justify-content: center;
 }
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 0 20px;
+}
+.ratinglabels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.range-input {
+    margin-top: -10px;
+}
+
+.wrong {
+    border-left: 10px solid red;
+}
+.match {
+    border-left: 10px solid green;
+}
+
+table {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table,
+table td,
+table th {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+caption {
+    caption-side: bottom;
+}
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.feedback-form input {
+    height: 50px;
+    font-size: 28px;
+}
 
 footer {
     background: #174e70;

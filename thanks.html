@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 - Portal - Vitaliy Tolokonnikov</title>
+    <meta name="description" content="WDD 230 course assignment portal. Vitaliy Tolokonnikov">
+    <meta name="author" content="Vitaliy Tolokonnikov">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="WDD 230 - Portal - Vitaliy Tolokonnikov" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vit-tolokonnikov.github.io/wdd230/" />
+    <meta property="og:image" content="https://vit-tolokonnikov.github.io/wdd230/images/site-plan/nsk.jpg" />
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="js-make-dark-btn">Make dark</a>
+        <a href="https://byui.edu/">BYU-Idaho</a>
+        <a href="https://www.linkedin.com/">Linkedin</a>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" fill="white">
+            <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" /></svg>
+    </nav>
+    <header>
+        <img class="header-img" src="./images/site-plan/vitaliy.webp" loading="lazy"
+            alt="">
+        <h1>Vitaliy Tolokonnikov</h1>
+    </header>
+    <main>
+        <div class="table-thanks">
+            <table>
+                <caption>Table 1: Account Feature Comparison</caption>
+                <thead>
+                    <tr>
+                        <td colspan="2">Form Intut</td>
+                    </tr>
+                    <tr>
+                        <td>Field</td>
+                        <td>Value</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td class="js-form-name">🗸</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td class="js-form-email">🗸</td>
+                    </tr>
+                    <tr>
+                        <td>Rating</td>
+                        <td class="js-form-rating"></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td class="js-form-username"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="curYear"></span> Vitaliy Tolokonnikov</p>
+        <p class="highlight" id="lastModified">today</p>
+    </footer>
+    <script src="./scripts/getDates.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

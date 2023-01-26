@@ -106,6 +106,26 @@
     <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25722.827798263934!2d30.139249873731334!3d36.303734223431384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c18a8ee0729cf9%3A0xa3021a429cb6cbd3!2zRmluaWtlLCDQpNC40L3QuNC60LUv0JDQvdGC0LDQu9C40Y8!5e0!3m2!1sru!2str!4v1674056861248!5m2!1sru!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <form method="get" action="./thanks.html" class="feedback-form">
+        <label>Full name*: <input type="text" name="fname" required></label>
+        <label>Your email*: <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+        <label>Range*: <input class="range-input" type="range" name="range" min="1" max="10"></label>
+        <div class="ratinglabels">
+			<span class="ratevalue">1</span>
+			<span class="ratevalue">2</span>
+			<span class="ratevalue">3</span>
+			<span class="ratevalue">4</span>
+			<span class="ratevalue">5</span>
+			<span class="ratevalue">6</span>
+			<span class="ratevalue">7</span>
+			<span class="ratevalue">8</span>
+			<span class="ratevalue">9</span>
+			<span class="ratevalue">10</span>
+	    </div>
+        <label>Username(must contain one special symbol from 5 to 12 characters)*: <input type="password" name="username" required pattern="(?=.*[!@#$%^&*])(?=.*[a-zA-Z0-9]).{5,12}$"></label>
+        <label>Repeat Username*: <input type="password" name="re-username" required pattern="(?=.*[!@#$%^&*])(?=.*[a-zA-Z0-9]).{5,12}$"></label>
+        <input type="submit" value="Submit">
+    </form>
     <footer>
         <p>©<span id="curYear"></span> Vitaliy Tolokonnikov</p>
         <p class="highlight" id="lastModified">today</p>
