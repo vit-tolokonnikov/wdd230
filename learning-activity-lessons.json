@@ -1,0 +1,29 @@
+{
+    "week01": [
+        "https://vit-tolokonnikov.github.io/wdd230/week01/holygrail.html", 
+        "https://vit-tolokonnikov.github.io/wdd230/week01/media-query.html"
+    ],
+    "week02": [
+        "https://vit-tolokonnikov.github.io/wdd230/week02/design.html",
+        "https://codepen.io/vit-tolokonnikov/pen/KKBmwNB",
+        "https://vit-tolokonnikov.github.io/wdd230/week02/bom.html"
+    ],
+    "week03": [
+        "https://vit-tolokonnikov.github.io/wdd230/week03/images/landscape.webp",
+        "https://vit-tolokonnikov.github.io/wdd230/week03/lazyload.html",
+        "https://codepen.io/vit-tolokonnikov/pen/gOjXYXm",
+        "https://vit-tolokonnikov.github.io/wdd230/week03/bom.html"
+    ],
+    "week04": [
+        "https://codepen.io/vit-tolokonnikov/pen/ExpEQKv",
+        "https://vit-tolokonnikov.github.io/wdd230/week04/images/exam.png",
+        "https://vit-tolokonnikov.github.io/wdd230/week04/tablebuild.html",
+        "https://vit-tolokonnikov.github.io/wdd230/week04/form-start/index.html"
+    ],
+    "week05": [
+        "https://codepen.io/vit-tolokonnikov/pen/rNrqKeo",
+        "https://vit-tolokonnikov.github.io/wdd230/week05/new-ward-members.json",
+        "https://vit-tolokonnikov.github.io/wdd230/week05/prophets.html",
+        "https://vit-tolokonnikov.github.io/wdd230/week05/weather.html"
+    ]
+}

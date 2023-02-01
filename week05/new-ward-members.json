@@ -1,0 +1,23 @@
+{
+    "familyName" : "Tolokonnikov",
+    "moveToWard" : 2018,
+    "numberOfRecords" : 3,
+    "visitedByBishopric" : true,
+    "famaliyMembers" : [
+      {
+        "name" : "Tolokonnikov Vitalii",
+        "gender" : "male",
+        "birthdate" : "01.18.1994"
+      },
+      {
+        "name" : "Tolokonnikova Galina",
+        "gender" : "female",
+        "birthdate" : "03.15.1994"
+      },
+      {
+        "name" : "Tolokonnikov Kirill",
+        "gender" : "male",
+        "birthdate" : "20.08.2020"
+      }
+    ]
+  }

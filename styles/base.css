@@ -110,6 +110,11 @@ li {
     font-size: 18px;
 }
 
+.weather {
+    display: flex;
+    align-items: center;
+}
+
 .map {
     max-width: 760px;
     margin: 1rem auto;
