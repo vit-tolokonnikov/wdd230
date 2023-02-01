@@ -150,9 +150,11 @@ function putLinks(data) {
 
         data[week].forEach((link) => {    
             const aElem = document.createElement("a");
+            const brElem = document.createElement("br");
             aElem.setAttribute('href', link);
             aElem.textContent = link;
             liElem.appendChild(aElem);
+            liElem.appendChild(brElem);
 
             learningLinksContainer.append(liElem);
             
