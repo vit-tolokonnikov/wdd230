@@ -155,3 +155,70 @@ label > textarea {
     padding: 40px 0;
 }
 /* Join.html End */
+
+
+/* Directory.html Start */
+#put-members {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 50px;
+    justify-items: center;
+    margin: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding: 30px;
+    height: 650px;
+    box-shadow: 5px 3px 20px gray;
+    justify-content: space-between;
+}
+.card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+.black-background {
+    background: black;
+}
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bbb;
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+#put-members.list-members {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+}
+.list-members > .card > *:not(.show-in-list) {
+    display: none;
+}
+
+.list-members > .card {
+    flex-direction: row;
+    height: auto;
+    padding: 5px 20px;
+    border: 1px solid black;
+    box-shadow: none;
+    max-width: none;
+    width: 100%;
+    justify-content: space-between;
+}
+.list-members > .card > .show-in-list {
+    width: 100px;
+}
+.list-members > .card:nth-child(odd) {
+    background-color: var(--bg-color-2);
+}
+/* Directory.html End */

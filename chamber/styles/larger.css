@@ -54,4 +54,10 @@
     .form-join {
         width: 65%;
     }
+    #put-members { 
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        width: 300px;
+    }
 }
