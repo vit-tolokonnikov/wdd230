@@ -23,9 +23,9 @@
 <body>
     <header>
         <div class="container header">
-            <div class="logo-container">
+            <a href="./index.html" class="logo-container">
                 <img src="./images/novosibirsk-low-resolution-color-logo.webp" class="logo-container-img" alt="logo">
-            </div>
+            </a>
             <nav>
                 <div class="hamburger-menu">
                     ≡
@@ -43,18 +43,26 @@
         </div>
 
         <div class="container">
+            <div class="banner-main">
+                <p>We invites all of you to attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.</p>
+            </div>
+            
             <div class="wrapper-section">
                 <section>
                     <h2>Events</h2>
                 </section>
                 <section>
                     <h2>Weather</h2>
+                    <p>The current temperature in Novosibirsk, Russia is <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <div class="weather-list"></div>
                 </section>
                 <section class="spotlights">
                     <h2>spotlights</h2>
-                    <div>spotlights 1</div>
-                    <div>spotlights 2</div>
-                    <div>spotlights 3</div>
+                    <div class="spotlights-list"></div>
                 </section>
             </div>
         </div>

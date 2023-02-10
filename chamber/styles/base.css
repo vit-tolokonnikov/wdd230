@@ -175,6 +175,7 @@ label > textarea {
     height: 650px;
     box-shadow: 5px 3px 20px gray;
     justify-content: space-between;
+    margin: 5px;
 }
 .card img {
     width: 100%;
@@ -222,3 +223,30 @@ label > textarea {
     background-color: var(--bg-color-2);
 }
 /* Directory.html End */
+
+
+.spotlights-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner-main {
+    background-color: var(--text-color);
+    height: 200px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.banner-main p {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--bg-color);
+    text-align: center;
+    max-width: 600px;
+}
+.show-banner.banner-main {
+    display: flex;
+}
