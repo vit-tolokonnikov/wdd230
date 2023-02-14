@@ -225,7 +225,6 @@ function putSpotlightsList(data) {
             if (count >= 3) {
                 
             } else {
-                console.log(member)
                 const card = document.createElement("div");
                 card.setAttribute("class", "card");
     

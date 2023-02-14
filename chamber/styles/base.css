@@ -231,6 +231,10 @@ label > textarea {
     justify-content: center;
 }
 
+.spotlights-list .card {
+    background-color: antiquewhite;
+}
+
 .banner-main {
     background-color: var(--text-color);
     height: 200px;
